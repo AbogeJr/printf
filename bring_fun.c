@@ -12,13 +12,13 @@
 
  */
 
-int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
+int (*bring_fun(const char *s, int index))(va_list, char *, unsigned int)
 
 {
   
   print_t pr[] = {
 		  
-		  {"c", print_chr}, {"s", print_str},
+		  {"c", printchr}, {"s", pstring},
 		  {"i", print_int}, {"d", print_int},
   };
   int i = 0, j = 0, first_index;
