@@ -2,7 +2,7 @@
 
 /**
 
- * get_print_func - selects the correct function to perform the operation.
+ * bring_fun - selects the correct function to perform the operation.
 
  * @s: argument indentifier
 
