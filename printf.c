@@ -56,7 +56,7 @@ int _printf(const char *format, ...)
 	  
 	  else
 	    
-	    {function = get_print_func(format, i + 1);
+	    {function = bring_fun(format, i + 1);
 	      
 	      if (function == NULL)
 		
