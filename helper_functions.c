@@ -5,7 +5,7 @@
 * @s: string to reverse
  * Return: A pointer to a character
 */
-char *rev_string(char *s)  
+char *rev_string(char *s)
 {
 int len;
 int head;
@@ -23,13 +23,13 @@ tmp = dest[len - 1];
 dest[len - 1] = dest[head];
 dest[head] = tmp;
 }
-return (dest);  
+return (dest);
 }
 /**
  * write_base - sends characters to be written on standard output
 * @str: String to parse
 */
-void write_base(char *str)  
+void write_base(char *str)
 {
 int i;
 for (i = 0; str[i] != '\0'; i++)
